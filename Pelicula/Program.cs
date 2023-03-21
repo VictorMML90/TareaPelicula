@@ -14,7 +14,7 @@ namespace Pelicula
          private string director;   
          private List<Actor> actores = new List<Actor>()        
         } 
-        
+
         //Constructores
         public Pelicula()
         {
@@ -56,6 +56,8 @@ namespace Pelicula
     public class Actor
     {
         //Propiedades
+        string nombre;
+        Int16 año;
 
         //Constructores
 
