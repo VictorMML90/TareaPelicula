@@ -84,6 +84,18 @@ namespace Pelicula
             Console.WriteLine("{0}({1})", p1.GetTitulo(), p1.GetAño());
             p1.Imprime();
 
+            List<Pelicula> peliculas = new List<Pelicula>();
+            peliculas.Add(new Pelicula("Kimetsu no yaiba: Mugen Ressha-hen",2020,));
+            peliculas.Add(new Pelicula ("One Piece Film: Red",2022));
+            peliculas.Add(new Pelicula ("Fate/Stay Night: Heaven's Feel - III",2020));
+            peliculas.Add(new Pelicula ("Avengers: Endgame",2019));
+            peliculas.Add(new Pelicula ("La tumba de las luciérnagas",1988));
+
+            foreach(Pelicula pelicula in peliculas)
+            {
+                pelicula.Imprime();
+            }
+
             Console.WriteLine("Hello");
         }
     }
