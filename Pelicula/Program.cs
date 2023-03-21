@@ -132,7 +132,7 @@ namespace Pelicula
 
               p1.AgregaActor(new Actor("Ryan Gosling", 1980));
               p1.AgregaActor(new Actor("Emma Stone", 1988));
-              p1.ImprimeActores();
+              p1.ImprimeActores(); 
 
             List<Pelicula> peliculas = new List<Pelicula>();
             peliculas.Add(new Pelicula("Kimetsu no yaiba: Mugen Ressha-hen",2020));
