@@ -17,7 +17,7 @@ namespace Pelicula
         private List<Actor> actores = new List<Actor>();
 
         //Constructores
-        publiv Pelicula()
+        public Pelicula()
         {
         }
         public Pelicula (string titulo, Int16 año)
