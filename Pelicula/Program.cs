@@ -21,24 +21,32 @@ namespace Pelicula
         private List<Actor> actores = new List<Actor>();
 
         //Constructores
-     
+        publiv Pelicula()
+        {
+        }
+        public Pelicula (string titulo, Int16 año)
+        {
+            this.titulo=titulo;
+            this.año= año;
+        }
+
         //Métodos
 
         public string GetTitulo()
         {
             retur titulo;
         }
-        public void SetTitulo(string titulo)
+        public void SetTitulo(string Titulo)
         {
-            titulo=titulo;
+            titulo=Titulo;
         }
         public Int16  GetAño()
         {
             retur año;
         }
-        public void SetAño(Int16 año)
+        public void SetAño(Int16 Año)
         {
-            año=año;
+            año=Año;
         }
      
         public void Imprime()
