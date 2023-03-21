@@ -13,11 +13,11 @@ namespace Pelicula
          private string pais;
          private string director;     
 
-}
 
-}
-      
-} 
+
+        }
+        } 
+        }
         private List<Actor> actores = new List<Actor>();
 
         //Constructores
