@@ -49,8 +49,18 @@ namespace Pelicula
           Console.WriteLine($"{titulo} ({año})");
 
         }
-
-
+          public void AgregaActor(Actor actor)
+        {
+           actores.Add(actor);
+        }
+        public void ImprimeActor()
+        {
+          foreach(Actor personas in actores)
+          
+          {
+              Console.WriteLine($"{personas.GetNombre()} ({personas.GetAño()})");
+          }          
+        }
     }
 
     public class Actor
