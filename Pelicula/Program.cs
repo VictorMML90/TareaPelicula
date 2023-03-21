@@ -7,8 +7,7 @@ namespace Pelicula
     public class Pelicula
     {
         //Campos
-        
-        }
+      
 } 
         private List<Actor> actores = new List<Actor>();
 
