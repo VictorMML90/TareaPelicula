@@ -11,11 +11,10 @@ namespace Pelicula
          private string titulo; 
          private Int16 año;
          private string pais;
-         private string director;           
+         private string director;   
+         private List<Actor> actores = new List<Actor>()        
         } 
         
-        private List<Actor> actores = new List<Actor>();
-
         //Constructores
         public Pelicula()
         {
