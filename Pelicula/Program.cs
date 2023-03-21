@@ -8,7 +8,12 @@ namespace Pelicula
     {
         //Campos
         {
-       
+         public string titulo; 
+         public Int16 año;
+         public string pais;
+         public string director;     
+
+}
 
 }
       
