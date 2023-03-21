@@ -23,6 +23,23 @@ namespace Pelicula
         //Constructores
      
         //Métodos
+
+        public string GetTitulo()
+        {
+            retur titulo;
+        }
+        public void SetTitulo(string titulo)
+        {
+            titulo=titulo;
+        }
+        public Int16  GetAño()
+        {
+            retur año;
+        }
+        public void SetAño(Int16 año)
+        {
+            año=año;
+        }
      
         public void Imprime()
         {
