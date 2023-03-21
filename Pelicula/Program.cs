@@ -27,30 +27,41 @@ namespace Pelicula
 
         //Métodos
 
+        //get
         public string GetTitulo()
         {
             return titulo;
         }
+        //set
         public void SetTitulo(string Titulo)
         {
             titulo=Titulo;
         }
+        //get
         public Int16  GetAño()
         {
             return año;
         }
+        //set
         public void SetAño(Int16 Año)
         {
             año=Año;
         }
+        public string GetPais()
+        {
+          return pais;
+        }
+        //set
         public void SetPaís(string pai)
         {
           pais=pai;
           }
+          //get
        public string GetDirector()
       {
         return director;}
 
+          //set
         public void SetDirector(string direcet)
         { 
           director=direcet;
