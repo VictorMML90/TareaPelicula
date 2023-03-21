@@ -60,7 +60,15 @@ namespace Pelicula
         Int16 año;
 
         //Constructores
-
+        public Actor()
+        {
+        }
+        public Actor (string nombre, Int16 año)
+        {
+            this.nombre= nombre;
+            this.año=año;
+        }
+  
 
         //Métodos 
         public void Imprime()
