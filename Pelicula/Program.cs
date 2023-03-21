@@ -138,16 +138,28 @@ namespace Pelicula
         {
             Pelicula p1 = new Pelicula();
             Pelicula p2 = new Pelicula();
-            p1.SetTitulo("La La Land");
-            p1.SetAño(2016);
+
+            //pelicula 1
+            p1.SetTitulo("Kimetsu no yaiba: Mugen Ressha-hen");
+            p1.SetAño(2020);
             Console.WriteLine("{0}({1})", p1.GetTitulo(), p1.GetAño());
             p1.Imprime();
 
             //Actor
 
-              p1.AgregaActor(new Actor("Ryan Gosling", 1980));
-              p1.AgregaActor(new Actor("Emma Stone", 1988));
-              p1.ImprimeActores(); 
+              p1.AgregaActor(new Actor("Natsuki Hanae ", 1991));
+              p1.AgregaActor(new Actor("Akari Kitō ", 1994));
+              p1.ImprimeActores();
+
+              //pelicula 2
+               p2.SetTitulo("One piece Film: Red");
+               p2.SetAño(2022);
+               Console.WriteLine("{0}({1})", p2.GetTitulo(), p2.GetAño());
+               p2.Imprime();
+              //actores 
+              p2.AgregaActor(new Actor("Mayumi Tanaka", 1955));
+              p2.AgregaActor(new Actor("Kazuya Nakai ", 1967));
+              p2.ImprimeActores();
 
             List<Pelicula> peliculas = new List<Pelicula>();
             peliculas.Add(new Pelicula("Kimetsu no yaiba: Mugen Ressha-hen",2020));
