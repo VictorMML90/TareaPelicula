@@ -43,23 +43,18 @@ namespace Pelicula
         {
             año=Año;
         }
-        public GetPais()
+        public void SetPaís(string pai)
         {
-          return pais;
-        }
-        public void SetPais(string Pais)
-        {
-          pais= Pais;
-        }
+          pais=pai;
+          }
+       public string GetDirector()
+      {
+        return director;}
 
-        public GetDirector()
-        {
-          return director;
-        }
-        public void SetDirector(string Director)
-        {
-          director=Director;
-        }
+        public void SetDirector(string direcet)
+        { 
+          director=direcet;
+          }
         public void Imprime()
         {
           Console.WriteLine($"{titulo} ({año})");
