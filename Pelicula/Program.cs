@@ -81,6 +81,24 @@ namespace Pelicula
   
 
         //Métodos 
+
+         public string GetNombre()
+        {
+          return nombre;
+        }
+        public void SetNombre(string nom)
+        {
+          nombre= nom;
+        }
+
+         public Int16 GetAño()
+        {
+          return año;
+        }
+        public void SetAño(Int16 year)
+        {
+          año= year;
+        }
         public void Imprime()
         {
             Console.WriteLine($"{Nombre} ({Año})");
