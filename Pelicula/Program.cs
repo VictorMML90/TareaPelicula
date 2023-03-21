@@ -56,6 +56,12 @@ namespace Pelicula
 
         static void Main(string[] args)
         {
+            Pelicula p1 = new Pelicula();
+            Pelicula p2 = new Pelicula();
+            p1.SetTitulo("La La Land");
+            p1.SetAño(2016);
+            Console.WriteLine("{0}({1})", p1.GetTitulo(), p1.GetAño());
+
             Console.WriteLine("Hello");
         }
     }
