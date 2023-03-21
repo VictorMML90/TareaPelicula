@@ -94,7 +94,7 @@ namespace Pelicula
             p1.Imprime();
 
             List<Pelicula> peliculas = new List<Pelicula>();
-            peliculas.Add(new Pelicula("Kimetsu no yaiba: Mugen Ressha-hen",2020,));
+            peliculas.Add(new Pelicula("Kimetsu no yaiba: Mugen Ressha-hen",2020));
             peliculas.Add(new Pelicula ("One Piece Film: Red",2022));
             peliculas.Add(new Pelicula ("Fate/Stay Night: Heaven's Feel - III",2020));
             peliculas.Add(new Pelicula ("Avengers: Endgame",2019));
