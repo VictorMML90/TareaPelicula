@@ -99,10 +99,6 @@ namespace Pelicula
         {
           año= year;
         }
-        public void Imprime()
-        {
-            Console.WriteLine($"{Nombre} ({Año})");
-        }
     }
 
     // Puedes probar tu código en Main() pero lo importante
