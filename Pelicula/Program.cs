@@ -29,7 +29,7 @@ namespace Pelicula
 
         public string GetTitulo()
         {
-            retur titulo;
+            return titulo;
         }
         public void SetTitulo(string Titulo)
         {
@@ -37,7 +37,7 @@ namespace Pelicula
         }
         public Int16  GetAño()
         {
-            retur año;
+            return año;
         }
         public void SetAño(Int16 Año)
         {
