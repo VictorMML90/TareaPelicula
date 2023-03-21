@@ -17,7 +17,7 @@ namespace Pelicula
 
         }
         } 
-        }
+        
         private List<Actor> actores = new List<Actor>();
 
         //Constructores
