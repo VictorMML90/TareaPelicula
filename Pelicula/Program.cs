@@ -117,6 +117,12 @@ namespace Pelicula
             Console.WriteLine("{0}({1})", p1.GetTitulo(), p1.GetAño());
             p1.Imprime();
 
+            //Actor
+
+              p1.AgregaActor(new Actor("Ryan Gosling", 1980));
+              p1.AgregaActor(new Actor("Emma Stone", 1988));
+              p1.ImprimeActor();
+
             List<Pelicula> peliculas = new List<Pelicula>();
             peliculas.Add(new Pelicula("Kimetsu no yaiba: Mugen Ressha-hen",2020));
             peliculas.Add(new Pelicula ("One Piece Film: Red",2022));
