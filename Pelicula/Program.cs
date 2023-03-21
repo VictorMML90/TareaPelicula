@@ -8,11 +8,7 @@ namespace Pelicula
     {
         //Campos
         {
-        static void Main(){
-          Pelicula p1 = new Pelicula();
-          p1.SetTitulo("La La Land");
-          p1.SetAño(2016);
-          Console.WriteLine("{0}({1})", p1.GetTitulo(), p1.GetAño());
+       
 
 }
       
